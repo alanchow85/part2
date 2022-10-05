@@ -10,7 +10,8 @@
 <p id="demo3"> </p>
 <p id="demo4"> </p
 <p id="demo5"> </p>    
-    
+<p id="demo6"> </p>  
+  
 <button type="button" onclick="displayDate()">Date</button>
 
 
@@ -23,7 +24,9 @@
 
 <button type="button" onclick="divide()">divide    
 </button>
-
+  
+<button type="button" onclick="remainder()">remainder    
+</button>
     
 </head>
 
@@ -48,6 +51,9 @@ function multiply(){
 }
 function divide(){
   document.getElementById("demo5").innerHTML = 5/4;
+}
+function remainder(){
+  document.getElementById("demo6").innerHTML = 5%4;
 }
 </script>
 </body>
